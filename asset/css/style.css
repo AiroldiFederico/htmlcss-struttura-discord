@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'gg Sans', sans-serif;
+}
 
 /* nav bar */
 
@@ -27,9 +30,6 @@ nav{
     min-height: 250px;
 }
 
-h1{
-    /* margin-bottom: 30px; */
-}
 
 button{
     margin: 0px 10px 0px 10px ;
@@ -37,3 +37,42 @@ button{
 
 
 /* -------------------------------------------- */
+/* section 1 */
+
+#sec-1{
+    display: flex;
+    min-height: 400px;
+    background-color: #fffefe;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1-1{
+    display: flex;
+    min-height: 350px;
+    margin: auto;
+    width: 60%;
+    background-color: lightpink;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1-sec1{
+    display: flex;
+    width: 60%;
+    background-color: lightblue;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1-sec2{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: pink;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}

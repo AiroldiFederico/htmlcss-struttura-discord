@@ -179,3 +179,34 @@ button{
     background-color: lightpink;
     align-items: center;
 }
+
+/* ------------------------------------- */
+/* footer */
+
+footer{
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    align-items: center;
+    color: white;
+}
+
+#foot-div{
+    margin: auto;
+    width: 60%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#footer-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+#signup{
+    display: flex;
+    justify-content: space-between;
+}
